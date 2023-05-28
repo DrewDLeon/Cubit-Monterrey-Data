@@ -1,2 +1,2 @@
-# Cubit-Monterrey-Data
-Data Visualization App from Incidents on Monterrey
+# CUBIT-PROJECT_HACKATHON
+Proyecto oficial de hackathon tigres 2023
