@@ -12,10 +12,12 @@
     <div class="container-date" id="date"></div>
     <span id="clock"></span>
     <section class="day-section">
-        
+        <tableau-viz id='tableau-viz' class="desktop" src='https://10az.online.tableau.com/t/solariooperaciones/views/Accidents/DashboardFilterDesktop' width='1000' height='840' hide-tabs toolbar=’hidden' ></tableau-viz>
+        <tableau-viz id='tableau-viz' class="phone" src='https://10az.online.tableau.com/t/solariooperaciones/views/Accidents/DashboardFilterPhone' width='359' height='684' hide-tabs toolbar='bottom' ></tableau-viz>
+
     </section>
 
-   
+   <script type='module' src='https://10az.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>                                                                                                                                                                                                                                                                            
     <script src="index.js"></script>
   </body>
 </html>
